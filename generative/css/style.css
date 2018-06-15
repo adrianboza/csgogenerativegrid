@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:url('Img/image.gif') repeat-y 100% 100% fixed;
+    height:100%;
+    width:100%;
+}
+
+
+main{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#my_image:hover{
+	opacity: 0.7;
+}
+
+#my_image {
+	width: 200px;
+	margin: 20px;
+	cursor: crosshair;
+}
+
+#appear_image_div{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	opacity: 0.7;
+	background: #000000;
+	
+}
+
+#appear_image{
+	display: block;
+	margin: auto;
+	width: 400px;
+	position: relative;
+	z-index: 11;
+	top: 40px;
+}
+#close_image{
+	position: fixed;
+	z-index: 12;
+	top: 12px;
+	right: 20px;
+	cursor: pointer;
+}
+
+#close_image:hover{
+	opacity: 0.7;
+}
